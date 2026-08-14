@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import ServicesHero from "@/components/services/ServicesHero";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
