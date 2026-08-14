@@ -1,4 +1,6 @@
 import Link from "next/link";
+
+
 import {
   MapPin,
   Phone,
@@ -38,15 +40,27 @@ export default function Footer() {
         <div className="-mt-16 rounded-3xl bg-gradient-to-r from-blue-600 to-cyan-500 p-10 shadow-2xl">
           <div className="flex flex-col items-center justify-between gap-6 lg:flex-row">
 
-            <div>
-              <p className="uppercase tracking-[4px] text-white/80">
-                Let's Build Together
-              </p>
+                  
+      <div className="absolute inset-0 bg-slate-950/80" />
 
-              <h2 className="mt-2 text-4xl font-bold">
-                Looking for reliable engineering materials?
-              </h2>
-              {/* RFQ Requirements */}
+              <div className="relative z-10 mx-auto max-w-5xl px-6 text-center">
+
+                <p className="mt-7 text-sm font-bold uppercase tracking-[0.25em] text-blue-400">
+                  Request for Quotation
+                </p>
+
+                <h2 className="mt-4 text-3xl font-bold text-white md:text-5xl">
+                   Looking for reliable engineering materials?
+                </h2>
+
+                <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-slate-300">
+                  Send us your BOQ,Technical specifications, required quantities, delivery
+                  location, and project timeline. Our team will review your
+                  requirements and provide a suitable solution.
+                </p>
+
+
+                {/* RFQ Requirements */}
                 <div className="mx-auto mt-10 grid max-w-4xl gap-4 text-left sm:grid-cols-2 lg:grid-cols-4">
 
                   {[
@@ -78,15 +92,7 @@ export default function Footer() {
                   ))}
 
                 </div>
-            </div>
-
-            <Link
-              href="/contact"
-              className="rounded-full bg-white px-8 py-4 font-semibold text-blue-700 transition hover:scale-105"
-            >
-              Request a Quote
-            </Link>
-
+              </div>
           </div>
         </div>
 

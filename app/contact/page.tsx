@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import AboutOrexa from "@/components/Home/AboutOrexa";
+import ContactPage from "@/components/contact/ContactPage";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
@@ -31,7 +31,7 @@ export default function AboutPage() {
   return (
   <>
   <Navbar />
-  <AboutOrexa />
+  <ContactPage />
   <Footer />  
   </>
   );

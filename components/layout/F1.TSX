@@ -46,38 +46,15 @@ export default function Footer() {
               <h2 className="mt-2 text-4xl font-bold">
                 Looking for reliable engineering materials?
               </h2>
-              {/* RFQ Requirements */}
-                <div className="mx-auto mt-10 grid max-w-4xl gap-4 text-left sm:grid-cols-2 lg:grid-cols-4">
-
-                  {[
-                    "BOQ / Item List",
-                    "Technical Specifications",
-                    "Required Quantities",
-                    "Delivery Location",
-                  ].map((item, index) => (
-
-                    <div
-                      key={item}
-                      className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm"
-                    >
-
-                      <div className="flex items-center gap-3">
-
-                        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-xs font-bold text-white">
-                          {index + 1}
-                        </span>
-
-                        <span className="text-sm font-medium text-white">
-                          {item}
-                        </span>
-
-                      </div>
-
-                    </div>
-
-                  ))}
-
-                </div>
+              <p className="mt-2 text-slate-400">
+              Send us your BOQ and project requirements.</p><p>
+              FOR RFQs, PLEASE INCLUDE:
+                
+                • BOQ / Item List + Specifications
+                • Required Quantities, Delivery Location and Timeline.
+                • Approves Vendor List (If Applicable).
+                • Any Certificates / Compliance Requirements
+            </p>
             </div>
 
             <Link

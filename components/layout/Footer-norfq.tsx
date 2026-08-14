@@ -39,53 +39,14 @@ export default function Footer() {
           <div className="flex flex-col items-center justify-between gap-6 lg:flex-row">
 
             <div>
-              <p className="uppercase tracking-[4px] text-white/80">
-                Let's Build Together
-              </p>
+             
 
-              <h2 className="mt-2 text-4xl font-bold">
-                Looking for reliable engineering materials?
-              </h2>
+              
               {/* RFQ Requirements */}
-                <div className="mx-auto mt-10 grid max-w-4xl gap-4 text-left sm:grid-cols-2 lg:grid-cols-4">
-
-                  {[
-                    "BOQ / Item List",
-                    "Technical Specifications",
-                    "Required Quantities",
-                    "Delivery Location",
-                  ].map((item, index) => (
-
-                    <div
-                      key={item}
-                      className="rounded-xl border border-white/10 bg-white/5 p-4 backdrop-blur-sm"
-                    >
-
-                      <div className="flex items-center gap-3">
-
-                        <span className="flex h-8 w-8 items-center justify-center rounded-lg bg-blue-600 text-xs font-bold text-white">
-                          {index + 1}
-                        </span>
-
-                        <span className="text-sm font-medium text-white">
-                          {item}
-                        </span>
-
-                      </div>
-
-                    </div>
-
-                  ))}
-
-                </div>
+                 
             </div>
 
-            <Link
-              href="/contact"
-              className="rounded-full bg-white px-8 py-4 font-semibold text-blue-700 transition hover:scale-105"
-            >
-              Request a Quote
-            </Link>
+             
 
           </div>
         </div>
