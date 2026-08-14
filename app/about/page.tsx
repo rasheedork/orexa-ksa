@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import AboutOrexa from "@/components/Home/AboutOrexa";
+import AboutOrexa from "@/components/home/AboutOrexa";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
